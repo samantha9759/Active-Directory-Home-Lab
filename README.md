@@ -2,7 +2,16 @@
 
 ## Objective
 The goal of this lab was to build and configure a basic Active Directory environment using Windows Server. I configured a domain controller, DNS, created domain users, connected a Windows client to the domain, and configured Group Policy. The lab also helped me practice troubleshooting network and domain connectivity issues.
+## Languages
+  - Powershell
+## Lab Environment
 
+- Oracle VirtualBox
+- Windows Server
+- Windows 10/11 Client
+- Active Directory Domain Services
+- DNS
+- Group Policy
 ## Skills Learned
 
 - Windows Server administration
