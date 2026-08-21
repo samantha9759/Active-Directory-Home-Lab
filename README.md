@@ -74,7 +74,7 @@ I used Windows command-line tools to diagnose the issue, including:
 - `ipconfig /renew` — refreshed the client's IP configuration.
 - `ping` — tested connectivity between the client and domain controller.
 - `nslookup` — tested DNS name resolution.
-
+<img width="502" height="369" alt="server-manager" src="https://github.com/user-attachments/assets/7a1fdd2a-c6b7-476e-b0be-0a307d2a6e48" />
 After correcting the network/DNS configuration and clearing the DNS cache, I was able to successfully connect the Windows client to the Active Directory domain.
 
 ## What I Learned
