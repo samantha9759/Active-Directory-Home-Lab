@@ -3,7 +3,7 @@
 ## Objective
 The goal of this lab was to build and configure a basic Active Directory environment using Windows Server. I configured a domain controller, DNS, created domain users, connected a Windows client to the domain, and configured Group Policy. The lab also helped me practice troubleshooting network and domain connectivity issues.
 
-### Skills Learned
+## Skills Learned
 
 - Windows Server administration
 - Active Directory Domain Services
@@ -17,7 +17,7 @@ The goal of this lab was to build and configure a basic Active Directory environ
 - Domain and client troubleshooting
 - Basic network connectivity troubleshooting
 
-### Tools Used
+## Tools Used
 - Windows Server
 - Windows 10/11 client
 - Active Directory Domain Services
@@ -50,6 +50,9 @@ The goal of this lab was to build and configure a basic Active Directory environ
 13. Created and configured a Group Policy.
 14. Applied the policy to the appropriate domain/user/computer.
 15. Tested and verified the Group Policy settings.
+## ## PowerShell User Creation
+
+To practice Active Directory administration and automation, I used PowerShell to create multiple Active Directory user accounts from a list of names. The script created an `_USERS` Organizational Unit and automatically generated usernames and user accounts.
 
 ## Troubleshooting
 
