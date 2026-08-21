@@ -62,6 +62,7 @@ The goal of this lab was to build and configure a basic Active Directory environ
 ## ## PowerShell User Creation
 
 To practice Active Directory administration and automation, I used PowerShell to create multiple Active Directory user accounts from a list of names. The script created an `_USERS` Organizational Unit and automatically generated usernames and user accounts.
+<img width="638" height="177" alt="Powershell" src="https://github.com/user-attachments/assets/82e12549-67c8-454e-bba9-36ec6e89e06c" />
 
 ## Troubleshooting
 
@@ -74,7 +75,19 @@ I used Windows command-line tools to diagnose the issue, including:
 - `ipconfig /renew` — refreshed the client's IP configuration.
 - `ping` — tested connectivity between the client and domain controller.
 - `nslookup` — tested DNS name resolution.
-<img width="502" height="369" alt="server-manager" src="https://github.com/user-attachments/assets/7a1fdd2a-c6b7-476e-b0be-0a307d2a6e48" />
+## Screenshots
+
+### Server Manager and Role Installation
+<img width="502" height="369" alt="server-manager" src="https://github.com/user-attachments/assets/6ae39997-b98b-48a2-b52e-30fe91df59aa" />
+
+### Network Configuration
+<img width="478" height="346" alt="network details" src="https://github.com/user-attachments/assets/8d0943e5-04a2-4ec8-a5b1-4b75c0fc8f07" />
+
+### Routing and Remote Access
+<img width="320" height="232" alt="configure and enable routing and remote access" src="https://github.com/user-attachments/assets/6cbcb6d6-cab8-4ac8-9f09-349e3c166d19" />
+### Group Policy Update
+<img width="508" height="352" alt="gp update" src="https://github.com/user-attachments/assets/bcaabbd6-f672-499d-9989-e434c678cb4a" />
+
 After correcting the network/DNS configuration and clearing the DNS cache, I was able to successfully connect the Windows client to the Active Directory domain.
 
 ## What I Learned
